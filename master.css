@@ -1,0 +1,35 @@
+@import url('https://fonts.cdnfonts.com/css/public-pixel');
+* {
+  margin: 0 0;
+  padding: 0 0;
+}
+body {
+  background: #2c2c2c;
+}
+
+#game {
+  width: fit-content;
+  height: 600px;
+  margin: auto;
+}
+.score {
+  width: fit-content;
+  height: 50px;
+  font-size: 50px;
+  color: #fafafa;
+  font-family: 'Public Pixel', sans-serif;
+
+  position: relative;
+}
+#scoreL {
+  left: 0;
+  bottom: 0;
+}
+#scoreR {
+  left: 0;
+  bottom: 0;
+}
+
+#canvas {
+  background: #1d1d1d;
+}
